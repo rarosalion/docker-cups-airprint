@@ -1,4 +1,4 @@
-FROM ubuntu:arm32v7
+FROM arm32v7/ubuntu:latest
 
 # Add repos
 #RUN echo 'deb http://us.archive.ubuntu.com/ubuntu/ zesty multiverse' >> /etc/apt/sources.list.d/multiverse.list && \
